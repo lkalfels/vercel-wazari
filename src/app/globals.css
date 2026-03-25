@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+:root {
+  --site-header-offset: 6.75rem;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --site-header-offset: 7.75rem;
+  }
+}
+
+@theme {
+  --color-primary: #f97316;
+  --color-primary-dark: #ea580c;
+  --color-primary-light: #fb923c;
+  --color-surface: #141a22;
+  --color-card: #1a222e;
+  --color-accent: #38bdf8;
+  --color-accent-dark: #0ea5e9;
+  --color-foreground: #f1f5f9;
+  --color-muted: #94a3b8;
+  --color-background: #0c0f14;
+  --color-border: #334155;
+
+  --font-heading: "Oswald", system-ui, sans-serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* Ancoras (#secção) ficam visíveis por baixo do header fixo */
+  scroll-padding-top: var(--site-header-offset);
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-foreground);
+  background-color: var(--color-background);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
+
+::selection {
+  background-color: var(--color-primary);
+  color: var(--color-background);
+}
