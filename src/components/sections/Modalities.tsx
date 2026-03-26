@@ -8,8 +8,7 @@ export function Modalities() {
           Modalidades
         </h2>
         <p className="mt-4 text-muted max-w-2xl">
-          Variedade para treinares o corpo de forma completa — sempre com
-          orientação da equipa.
+          Variedade para você treinar o corpo de forma completa — sempre com orientação da equipe.
         </p>
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {MODALITIES.map((m) => (

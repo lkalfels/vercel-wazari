@@ -1,8 +1,8 @@
 import { MapPin, Users, Sparkles } from "lucide-react";
 
 const ITEMS = [
-  { icon: MapPin, label: "Barcelos · Manhente" },
-  { icon: Users, label: "Equipa atenta" },
+  { icon: MapPin, label: "Centro · Navegantes" },
+  { icon: Users, label: "Profissionais preparados" },
   { icon: Sparkles, label: "Iniciantes e avançados" },
 ];
 

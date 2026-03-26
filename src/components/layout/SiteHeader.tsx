@@ -1,3 +1,5 @@
+"use client";
+
 import { AnnouncementBar } from "@/components/sections/AnnouncementBar";
 import { Header } from "./Header";
 

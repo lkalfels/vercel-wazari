@@ -59,7 +59,7 @@ export const MODALITIES: Modality[] = [
   {
     title: "Pilates",
     description:
-      "Postura, controlo, mobilidade e fortalecimento do core.",
+      "Postura, controle, mobilidade e fortalecimento do core.",
   },
   {
     title: "Yoga",
@@ -69,7 +69,7 @@ export const MODALITIES: Modality[] = [
   {
     title: "Boxe",
     description:
-      "Cardio, coordenação e libertação de stress num formato dinâmico.",
+      "Cardio, coordenação e liberação de estresse em um formato dinâmico.",
   },
   {
     title: "Spin Bike",
@@ -79,9 +79,9 @@ export const MODALITIES: Modality[] = [
 ];
 
 export const DIFFERENTIATORS = [
-  "Acompanhamento próximo e humano — não és um número.",
+  "Acompanhamento próximo e humano — você não é um número.",
   "Aulas pensadas para vários níveis — adaptação contínua.",
-  "Comunidade local motivadora — treinas num ambiente que puxa por ti.",
+  "Comunidade local motivadora — você treina em um ambiente que te motiva.",
   "Plano recomendado após a experiência — clareza no próximo passo.",
 ];
 
@@ -120,7 +120,7 @@ export const FAQS: FAQItem[] = [
       "Não. Experimentas primeiro e decides com calma.",
   },
   {
-    question: "Onde fica o ginásio?",
+    question: "Onde fica a academia?",
     answer: `Em ${ADDRESS_LINE}. Abre a localização no Google Maps para veres como chegar.`,
   },
   {

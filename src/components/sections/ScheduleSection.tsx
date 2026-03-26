@@ -77,8 +77,7 @@ export function ScheduleSection() {
               Mapa de Aulas
             </h2>
             <p className="mt-4 text-muted max-w-2xl leading-relaxed">
-              Consulta os horários das nossas modalidades. Horário sujeito a
-              alterações — confirma sempre connosco antes da primeira visita.
+              Confira os horários das nossas modalidades. Horários sujeitos a alterações — confirme sempre conosco antes da primeira visita.
             </p>
           </div>
         </div>
@@ -150,7 +149,7 @@ export function ScheduleSection() {
         </div>
 
         <p className="mt-6 text-xs text-muted text-center md:text-left">
-          Horário sujeito a alterações. Confirma sempre connosco antes da primeira visita.
+          Horário sujeito a alterações. Confirmar sempre antes da primeira visita.
         </p>
       </div>
     </section>

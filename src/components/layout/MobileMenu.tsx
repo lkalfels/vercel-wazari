@@ -116,7 +116,7 @@ export function MobileMenu() {
                       href={whatsappUrl(WHATSAPP_TRIAL_MESSAGE)}
                       className="w-full"
                     >
-                      Marcar aula experimental
+                      Agendar aula experimental
                     </Button>
                   </div>
                 </nav>

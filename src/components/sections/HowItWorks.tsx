@@ -1,18 +1,18 @@
 const STEPS = [
   {
     n: "1",
-    title: "Marca a tua aula experimental",
+    title: "Agenda a aula experimental",
     description: "Rápido, sem complicações — por WhatsApp ou formulário.",
   },
   {
     n: "2",
     title: "Vem treinar e conhecer o espaço",
-    description: "Equipa, horários e dinâmica das aulas.",
+    description: "Equipe, horários e dinâmica das aulas.",
   },
   {
     n: "3",
-    title: "Recebes o plano recomendado",
-    description: "Para avançares com objetivos claros.",
+    title: "Recebe o plano recomendado",
+    description: "Para avançar com objetivos claros.",
   },
 ];
 

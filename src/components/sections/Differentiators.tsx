@@ -6,7 +6,7 @@ export function Differentiators() {
     <section className="py-16 md:py-24 bg-surface border-y border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground uppercase tracking-tight">
-          O que nos distingue
+          O que nos diferencia
         </h2>
         <ul className="mt-10 space-y-4 max-w-3xl">
           {DIFFERENTIATORS.map((line) => (
