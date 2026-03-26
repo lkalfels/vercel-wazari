@@ -21,12 +21,12 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   title: "Academia Navegantes | Ginásio em Barcelos — Aulas e Treino com Acompanhamento",
   description:
-    "Academia em Navegantes (Centro). CrossTraining, Pilates, Yoga, Boxe e Spin Bike. Marque uma aula experimental e comece com método e acompanhamento.",
+    "Ginásio em Barcelos (Manhente). CrossTraining, Pilates, Yoga, Boxe e Spin Bike. Marca a tua aula experimental e começa com método e acompanhamento.",
   keywords: [
-    "centro Navegantes",
-    "centro Navegantes",
-    "CrossTraining Navegantes",
-    "Pilates Navegantes",
+    "ginásio Barcelos",
+    "ginásio Manhente",
+    "CrossTraining Barcelos",
+    "Pilates Barcelos",
     "aulas de grupo",
     "Academia Navegantes",
   ],
