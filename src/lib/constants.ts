@@ -4,21 +4,21 @@ import type { Benefit, FAQItem, Modality, NavLink, Testimonial } from "@/types";
 export const WHATSAPP_NUMBER = "351966710647";
 
 export const WHATSAPP_TRIAL_MESSAGE =
-  "Olá! Quero marcar uma aula experimental na Wazari.";
+  "Olá! Quero agendar uma aula experimental na Academia Navegantes.";
 
 export function whatsappUrl(message: string = WHATSAPP_TRIAL_MESSAGE): string {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 }
 
-export const SITE_EMAIL = "wazarifitnessgym@gmail.com";
+export const SITE_EMAIL = "academia@gmail.com";
 export const FACEBOOK_URL =
-  "https://www.facebook.com/people/Wazari/61560514366485/";
-export const INSTAGRAM_URL = "https://www.instagram.com/wazari_fitness_gym/";
+  "https://www.facebook.com/people/Academia-Navegantes/61560514366485/";
+export const INSTAGRAM_URL = "https://www.instagram.com/academia_navegantes/";
 
-export const ADDRESS_LINE = "Rua da Tulipa 77, Manhente, Barcelos, Portugal";
+export const ADDRESS_LINE = "Rua Juvenal Mafra, Centro, Navegantes, SC";
 export const MAPS_SEARCH_URL =
   "https://www.google.com/maps/search/?api=1&query=" +
-  encodeURIComponent("Wazari Fitness Gym " + ADDRESS_LINE);
+  encodeURIComponent("Academia Navegantes " + ADDRESS_LINE);
 
 export const NAV_LINKS: NavLink[] = [
   { label: "Modalidades", href: "/#modalidades" },
@@ -41,12 +41,12 @@ export const BENEFITS: Benefit[] = [
   {
     title: "Consistência sem culpa",
     description:
-      "Acompanhamento real para não desistires à primeira dificuldade.",
+      "Acompanhamento real para não desistir na primeira dificuldade.",
   },
   {
     title: "Treino seguro para o teu nível",
     description:
-      "Adaptamos cargas e exercícios — mesmo que estejas a começar ou a regressar.",
+      "Adaptamos cargas e exercícios — mesmo que esteja começando ou retonando.",
   },
 ];
 
@@ -94,7 +94,7 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     name: "Ricardo",
     location: "Manhente",
-    text: "Nunca tinha conseguido manter rotina. Na Wazari encontrei acompanhamento e motivação a sério.",
+    text: "Nunca tinha conseguido manter rotina. Na Academia encontrei acompanhamento e motivação a sério.",
   },
 ];
 

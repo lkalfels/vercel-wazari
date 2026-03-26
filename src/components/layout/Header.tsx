@@ -60,7 +60,7 @@ export function Header() {
 
           <div className="hidden lg:flex items-center gap-4">
             <Button href={whatsappUrl(WHATSAPP_TRIAL_MESSAGE)} size="sm">
-              Marcar aula experimental
+              Agendar aula experimental
             </Button>
           </div>
 

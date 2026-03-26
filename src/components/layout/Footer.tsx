@@ -42,22 +42,21 @@ export function Footer() {
           <div>
             <Link href="/" className="inline-flex items-center gap-3">
               <span className="flex h-9 w-9 items-center justify-center rounded-[var(--radius-md)] bg-primary text-background font-heading text-base font-bold">
-                W
+                AN
               </span>
               <span className="font-heading text-2xl font-bold text-foreground tracking-wide uppercase">
-                Wazari
+                Academia Navegantes
               </span>
             </Link>
             <p className="mt-4 text-sm leading-relaxed">
-              Ginásio em Barcelos com aulas de grupo, acompanhamento próximo e
-              ambiente motivador. Marca a tua aula experimental.
+              Academia em Navegantes com aulas em grupo, acompanhamento próximo e ambiente motivador. Agenda uma aula experimental.
             </p>
             <div className="flex gap-4 mt-6">
               <a
                 href={INSTAGRAM_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Instagram da Wazari"
+                aria-label="Instagram da Academia Navegantes"
                 className="p-2 rounded-full bg-card border border-border hover:border-primary hover:text-primary transition-colors"
               >
                 <InstagramIcon className="w-5 h-5" />
@@ -66,7 +65,7 @@ export function Footer() {
                 href={FACEBOOK_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Facebook da Wazari"
+                aria-label="Facebook da Academia Navegantes"
                 className="p-2 rounded-full bg-card border border-border hover:border-primary hover:text-primary transition-colors"
               >
                 <FacebookIcon className="w-5 h-5" />
@@ -76,7 +75,7 @@ export function Footer() {
 
           <div>
             <h3 className="font-heading text-lg font-semibold text-foreground mb-4">
-              Morada
+              Endereço
             </h3>
             <div className="space-y-3 text-sm">
               <div className="flex items-start gap-2">
@@ -146,7 +145,7 @@ export function Footer() {
 
         <div className="mt-12 pt-8 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-muted/80">
           <p>
-            &copy; {new Date().getFullYear()} Wazari Fitness Gym. Todos os
+            &copy; {new Date().getFullYear()} Academia Navegantes. Todos os
             direitos reservados.
           </p>
         </div>

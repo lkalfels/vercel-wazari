@@ -30,7 +30,7 @@ export function Hero() {
           >
             <span className="inline-flex items-center gap-2 text-primary font-semibold text-xs sm:text-sm uppercase tracking-widest bg-primary/10 rounded-full px-4 py-1.5 ring-1 ring-primary/25">
               <Flame className="w-3.5 h-3.5" aria-hidden />
-              Ginásio · Barcelos · Manhente
+              Centro · Navegantes
             </span>
           </motion.div>
 
@@ -40,8 +40,8 @@ export function Hero() {
             transition={{ duration: 0.55, delay: 0.08 }}
             className="mt-7 sm:mt-8 font-heading text-4xl sm:text-5xl md:text-6xl font-bold text-foreground leading-[1.1] tracking-tight uppercase"
           >
-            Treina com método na Wazari —{" "}
-            <span className="text-primary">resultados reais</span> em Barcelos.
+            Treina com método na Academia Navegantes —{" "}
+            <span className="text-primary">resultados reais</span> em Navegantes.
           </motion.h1>
 
           <motion.p
@@ -50,9 +50,7 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 0.18 }}
             className="mt-6 text-lg sm:text-xl text-muted leading-relaxed max-w-2xl"
           >
-            Aulas de CrossTraining, Pilates, Yoga, Boxe e Spin Bike, com
-            acompanhamento próximo para todos os níveis. Marca a tua aula
-            experimental e começa já.
+            Aulas de CrossTraining, Pilates, Yoga, Boxe e Spin Bike, com acompanhamento próximo para todos os níveis. Agende uma aula experimental e comece já.
           </motion.p>
 
           <motion.div
@@ -66,7 +64,7 @@ export function Hero() {
               size="lg"
               className="group"
             >
-              Marcar aula experimental
+              Agendar aula experimental
               <ArrowRight className="w-4 h-4 ml-2 transition-transform group-hover:translate-x-0.5" />
             </Button>
             <Button href="/#horarios" variant="outline" size="lg">

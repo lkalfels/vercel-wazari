@@ -8,7 +8,7 @@ export function Benefits() {
         <div className="flex items-end gap-3 mb-10 md:mb-14">
           <Zap className="w-8 h-8 text-primary shrink-0" aria-hidden />
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground uppercase tracking-tight">
-            O que ganhas connosco
+            Benefícios
           </h2>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

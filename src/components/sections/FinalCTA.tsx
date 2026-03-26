@@ -10,12 +10,11 @@ export function FinalCTA() {
           <span className="text-primary">primeiro passo?</span>
         </h2>
         <p className="mt-6 text-lg text-muted max-w-xl mx-auto leading-relaxed">
-          Marca hoje a tua aula experimental na Wazari e começa com método e
-          acompanhamento.
+          Agende uma aula experimental na ACADEMIA NAVEGANTES com método e acompanhamento.
         </p>
         <div className="mt-10 flex flex-col sm:flex-row gap-3 justify-center">
           <Button href={whatsappUrl(WHATSAPP_TRIAL_MESSAGE)} size="lg">
-            Quero marcar agora
+            Quero agendar agora
           </Button>
           <Button href="/#marcar" variant="outline" size="lg">
             Preencher formulário

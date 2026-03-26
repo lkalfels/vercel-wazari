@@ -14,7 +14,7 @@ export function WhatsAppButton() {
     >
       <MessageCircle className="w-6 h-6" aria-hidden />
       <span className="hidden sm:inline text-sm font-semibold">
-        Falar connosco
+        Fale conosco
       </span>
     </a>
   );

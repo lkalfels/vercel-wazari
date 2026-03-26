@@ -19,24 +19,24 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Wazari | Ginásio em Barcelos — Aulas e Treino com Acompanhamento",
+  title: "Academia Navegantes | Ginásio em Navegantes — Aulas e Treino com Acompanhamento",
   description:
-    "Ginásio em Barcelos (Manhente). CrossTraining, Pilates, Yoga, Boxe e Spin Bike. Marca a tua aula experimental e começa com método e acompanhamento.",
+    "Academia em Navegantes, SC. CrossTraining, Pilates, Yoga, Boxe e Spin Bike. Agende a sua aula experimental e comece com método e acompanhamento.",
   keywords: [
-    "ginásio Barcelos",
-    "ginásio Manhente",
-    "CrossTraining Barcelos",
-    "Pilates Barcelos",
+    "academia Navegantes",
+    "ginásio Navegantes",
+    "CrossTraining Navegantes",
+    "Pilates Navegantes",
     "aulas de grupo",
-    "Wazari",
+    "Academia Navegantes",
   ],
   openGraph: {
-    title: "Wazari — Ginásio em Barcelos",
+    title: "Academia Navegantes — Ginásio em Navegantes",
     description:
-      "Treina com método e acompanhamento. Aulas para todos os níveis. Marca a tua aula experimental.",
+      "Treina com método e acompanhamento. Aulas para todos os níveis. Agende a sua aula experimental.",
     type: "website",
-    locale: "pt_PT",
-    siteName: "Wazari Fitness Gym",
+    locale: "pt_BR",
+    siteName: "Academia Navegantes",
   },
 };
 
