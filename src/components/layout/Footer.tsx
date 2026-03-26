@@ -42,10 +42,10 @@ export function Footer() {
           <div>
             <Link href="/" className="inline-flex items-center gap-3">
               <span className="flex h-9 w-9 items-center justify-center rounded-[var(--radius-md)] bg-primary text-background font-heading text-base font-bold">
-                AN
+                W
               </span>
               <span className="font-heading text-2xl font-bold text-foreground tracking-wide uppercase">
-                Academia Navegantes
+                Wazari
               </span>
             </Link>
             <p className="mt-4 text-sm leading-relaxed">
@@ -57,7 +57,7 @@ export function Footer() {
                 href={INSTAGRAM_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Instagram da Academia Navegantes"
+                aria-label="Instagram da Wazari"
                 className="p-2 rounded-full bg-card border border-border hover:border-primary hover:text-primary transition-colors"
               >
                 <InstagramIcon className="w-5 h-5" />
@@ -66,7 +66,7 @@ export function Footer() {
                 href={FACEBOOK_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Facebook da Academia Navegantes"
+                aria-label="Facebook da Wazari"
                 className="p-2 rounded-full bg-card border border-border hover:border-primary hover:text-primary transition-colors"
               >
                 <FacebookIcon className="w-5 h-5" />
@@ -146,7 +146,7 @@ export function Footer() {
 
         <div className="mt-12 pt-8 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-muted/80">
           <p>
-            &copy; {new Date().getFullYear()} Academia Navegantes. Todos os
+            &copy; {new Date().getFullYear()} Wazari Fitness Gym. Todos os
             direitos reservados.
           </p>
         </div>

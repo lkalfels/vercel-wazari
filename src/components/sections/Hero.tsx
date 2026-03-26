@@ -40,7 +40,7 @@ export function Hero() {
             transition={{ duration: 0.55, delay: 0.08 }}
             className="mt-7 sm:mt-8 font-heading text-4xl sm:text-5xl md:text-6xl font-bold text-foreground leading-[1.1] tracking-tight uppercase"
           >
-            Treina com método na Academia Navegantes —{" "}
+            Treina com método na Wazari —{" "}
             <span className="text-primary">resultados reais</span> em Barcelos.
           </motion.h1>
 

@@ -41,7 +41,7 @@ export function LeadForm() {
     }
 
     const lines = [
-      "Olá! Quero marcar uma aula experimental na Academia Navegantes.",
+      "Olá! Quero marcar uma aula experimental na Wazari.",
       `Nome: ${n}`,
       `Objetivo: ${goal}`,
       `Preferência de horário: ${timePref}`,

@@ -4,7 +4,7 @@ import type { Benefit, FAQItem, Modality, NavLink, Testimonial } from "@/types";
 export const WHATSAPP_NUMBER = "351966710647";
 
 export const WHATSAPP_TRIAL_MESSAGE =
-  "Olá! Quero marcar uma aula experimental na Academia Navegantes.";
+  "Olá! Quero marcar uma aula experimental na Wazari.";
 
 export function whatsappUrl(message: string = WHATSAPP_TRIAL_MESSAGE): string {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
@@ -18,7 +18,7 @@ export const INSTAGRAM_URL = "https://www.instagram.com/wazari_fitness_gym/";
 export const ADDRESS_LINE = "Rua da Tulipa 77, Manhente, Barcelos, Portugal";
 export const MAPS_SEARCH_URL =
   "https://www.google.com/maps/search/?api=1&query=" +
-  encodeURIComponent("Academia Navegantes " + ADDRESS_LINE);
+  encodeURIComponent("Wazari Fitness Gym " + ADDRESS_LINE);
 
 export const NAV_LINKS: NavLink[] = [
   { label: "Modalidades", href: "/#modalidades" },
@@ -94,7 +94,7 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     name: "Ricardo",
     location: "Manhente",
-    text: "Nunca tinha conseguido manter rotina. Na Academia Navegantes encontrei acompanhamento e motivação a sério.",
+    text: "Nunca tinha conseguido manter rotina. Na Wazari encontrei acompanhamento e motivação a sério.",
   },
 ];
 

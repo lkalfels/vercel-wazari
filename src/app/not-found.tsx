@@ -8,7 +8,7 @@ export default function NotFound() {
         Página não encontrada
       </h1>
       <p className="mt-2 text-muted max-w-md">
-        O link pode estar desatualizado. Volta à página inicial da Academia Navegantes.
+        O link pode estar desatualizado. Volta à página inicial da Wazari.
       </p>
       <Button href="/" className="mt-8">
         Ir para início

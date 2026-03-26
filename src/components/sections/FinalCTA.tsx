@@ -10,7 +10,7 @@ export function FinalCTA() {
           <span className="text-primary">primeiro passo?</span>
         </h2>
         <p className="mt-6 text-lg text-muted max-w-xl mx-auto leading-relaxed">
-          Marca hoje a tua aula experimental na Academia Navegantes e começa com método e
+          Marca hoje a tua aula experimental na Wazari e começa com método e
           acompanhamento.
         </p>
         <div className="mt-10 flex flex-col sm:flex-row gap-3 justify-center">
