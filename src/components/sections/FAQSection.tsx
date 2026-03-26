@@ -12,14 +12,14 @@ const faqItems = FAQS.map((faq) => {
           <p>Em {FAQ_ADDRESS}.</p>
           <div className="rounded-[var(--radius-md)] overflow-hidden border border-border">
             <iframe
-              src={`https://maps.google.com/maps?q=${encodeURIComponent("Wazari Fitness Gym, Rua da Tulipa 77, Manhente, Barcelos")}&t=&z=15&ie=UTF8&iwloc=&output=embed`}
+              src={`https://maps.google.com/maps?q=${encodeURIComponent("Academia Navegantes, Rua da Tulipa 77, Manhente, Barcelos")}&t=&z=15&ie=UTF8&iwloc=&output=embed`}
               width="100%"
               height="250"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Localização Wazari Fitness Gym no Google Maps"
+              title="Localização Academia Navegantes no Google Maps"
             />
           </div>
         </div>

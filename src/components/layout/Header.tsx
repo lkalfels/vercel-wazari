@@ -36,10 +36,10 @@ export function Header() {
               className="flex h-10 w-10 items-center justify-center rounded-[var(--radius-md)] bg-primary text-background font-heading text-lg font-bold tracking-tight"
               aria-hidden
             >
-              W
+              AN
             </span>
             <span className="font-heading text-xl md:text-2xl font-bold text-foreground tracking-wide uppercase">
-              Wazari
+              Academia Navegantes
             </span>
           </Link>
 
